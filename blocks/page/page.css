@@ -1,0 +1,9 @@
+@import url('https://rsms.me/inter/inter.css');
+@import url('./__header/page__header.css');
+@import url('./__lead/page__lead.css');
+
+.page {
+  width: 100vw;
+  background: #2A2C2F;
+  font-family: 'Inter', 'Calibri', sans-serif;
+}
