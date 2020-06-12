@@ -1,9 +1,25 @@
-@import url('https://rsms.me/inter/inter.css');
 @import url('./__header/page__header.css');
 @import url('./__lead/page__lead.css');
+@font-face {
+  font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
+  font-weight: bold;
+}
+
+
 
 .page {
   width: 100vw;
   background: #2A2C2F;
-  font-family: 'Inter', 'Calibri', sans-serif;
+  font-family: 'Inter', 'Calibri';
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
