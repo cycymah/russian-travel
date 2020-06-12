@@ -1,6 +1,6 @@
 .lead__image-road {
   position: absolute;
-  top: 90px;
-  left: 23px;
-  z-index: 2;
+  top: 14%;
+  left: 2%;
+  z-index: 1;
 }

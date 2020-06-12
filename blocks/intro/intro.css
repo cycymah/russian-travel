@@ -3,5 +3,6 @@
 @import url('./__list/intro__list.css');
 
 .intro {
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
 }

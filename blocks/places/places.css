@@ -1,0 +1,7 @@
+@import url('./__list/places__list.css');
+.places {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fill, minmax(534px, min-content));
+  gap: 80px;
+}

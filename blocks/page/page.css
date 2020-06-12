@@ -1,6 +1,9 @@
+@import url('https://rsms.me/inter/inter.css');
 @import url('./__header/page__header.css');
 @import url('./__lead/page__lead.css');
 @import url('./__intro/page__intro.css');
+@import url('./__photo-grid/page__photo-grid.css');
+@import url('./__places/page__places.css');
 
 @font-face {
   font-family: 'Inter';
@@ -17,11 +20,13 @@
 
 .page {
   width: 100vw;
+  min-width: 320px;
   background: #2A2C2F;
-  font-family: 'Inter', 'Calibri';
+  font-family: 'Inter', 'Arial', sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
