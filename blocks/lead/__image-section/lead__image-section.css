@@ -1,4 +1,5 @@
 .lead__image-section {
+  position: relative;
+  min-width: 984px;
   margin: 0;
-  border: 1px solid red;
 }
