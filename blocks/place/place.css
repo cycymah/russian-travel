@@ -9,10 +9,15 @@
 .place {
   width: 100%;
   display: grid;
-  grid-template-areas: 
-  "title website"
-  "image paragraph"
+  grid-template: 
+    "title website"
+    "image paragraph"
+    /fit-content(460px) fit-content(484px)
   ;
-  gap: 80px;
-  border: 1px solid yellow;
+  column-gap: 40px;
+  row-gap: 48px;
+  margin-bottom: 80px;
+}
+.place:last-child {
+  margin-bottom: 0;
 }
