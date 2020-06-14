@@ -3,27 +3,50 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background: url('../__overlay/images/overlay.png') no-repeat;
+  background: url('./image/overlay.png') no-repeat;
   background-size: cover;
   width: 100%;
+  min-height: 720px;
   text-decoration: none;
 }
 
 .cover__background::after {
-  width: 100%;
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  background: url('./image/na-sobakah.png');
+  background: url('./image/na-sobakah.png') no-repeat;
+  background-size: cover;
   opacity: 0.7;
   transition: opacity 0.5s ease-in-out;
 }
 
-
 .cover__background:hover::after {
   opacity: 0.2;
   transition: opacity 0.5s ease-in-out;
+}
+@media screen and (max-width: 1150px) {
+  .cover__background {
+    min-height: 700px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .cover__background {
+    min-height: 580px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    min-height: 200px;
+  }
 }

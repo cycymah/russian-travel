@@ -6,5 +6,14 @@
   margin-left: 18px;
   font-size: 1.5rem;
   line-height: 1.5;
-  color: white;
+  text-align: right;
+  color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+  .page__header {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-align: right;
+  }
 }

@@ -6,5 +6,21 @@ margin: 92px auto 92px;
 @media screen and (max-width: 1024px) {
   .page__intro{
     max-width: 928px;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__intro{
+    padding: 0 24px;
+    margin: 88px auto 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__intro{
+    max-width: 288px;
+    padding: 0 16px;
+    margin: 64px auto 64px;
   }
 }

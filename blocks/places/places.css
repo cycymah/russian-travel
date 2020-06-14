@@ -1,7 +1,18 @@
 @import url('./__list/places__list.css');
+
 .places {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(auto-fill, minmax(534px, min-content));
-  gap: 80px;
+  display: flex;
+  margin: 80px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin: 72px auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    margin: 64px auto;
+  }
 }

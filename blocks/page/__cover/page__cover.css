@@ -1,12 +1,22 @@
 .page__cover {
   max-width: 1184px;
   margin: 92px auto;
-  min-height: 740px;
 }
 
 @media screen and (max-width: 1024px) {
   .page__cover {
-    max-width: 1024px;
-    min-height: 640px;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__cover {
+    margin: 88px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__cover {
+    margin: 64px auto;
   }
 }

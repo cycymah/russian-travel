@@ -2,9 +2,8 @@
   width: 100%;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.1rem;
+  line-height: 1.25;
   text-decoration-line: underline;
   color: #FFFFFF;
-  cursor: url(./images/cursor.png);
 }
