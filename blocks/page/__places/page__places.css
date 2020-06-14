@@ -3,3 +3,9 @@
   margin: 92px auto;
   min-height: 200px;
 }
+
+@media screen and (max-width: 1024px) {
+  .page__places {
+    max-width: 928px;
+  }
+}

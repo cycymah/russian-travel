@@ -1,4 +1,5 @@
 .cover__text-box {
-  grid-row: 1;
-  grid-column: 1;
+  position: relative;
+  z-index: 3;
+
 }

@@ -1,8 +1,7 @@
 .lead__image {
-  grid-row: 1;
-  grid-column: 1;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
+
 

@@ -1,6 +1,16 @@
+@import url('./__item/photo-grid__item.css');
+
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(284px, max-content));
+  grid-template-columns: repeat(auto-fill, 284px);
   justify-content: space-around;
   gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-rows: repeat(auto, 225px);
+    gap: 14px;
+  }
 }

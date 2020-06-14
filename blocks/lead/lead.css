@@ -3,7 +3,6 @@
 @import url('./__image-section/lead__image-section.css');
 @import url('./__caption/lead__caption.css');
 @import url('./__image/lead__image.css');
-@import url('./__image-road/lead__image-road.css');
 
 .lead {
   display: flex;
