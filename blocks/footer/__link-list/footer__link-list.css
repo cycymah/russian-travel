@@ -4,6 +4,11 @@
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width: 375px) {
+  .footer__link-list {
+    flex-direction: column;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .footer__link-list {

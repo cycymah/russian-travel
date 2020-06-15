@@ -38,6 +38,22 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .place {
+    grid-template: 
+    "title" 
+    "image" 
+    "paragraph"
+  ;
+    width: 100vw;
+    justify-content: center;
+    grid-template-columns: auto-fill;
+    row-gap: 32px;
+    column-gap: 0px;
+    margin-bottom: 48px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place {
     grid-template: 

@@ -45,6 +45,12 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .cover__background {
+    min-height: 300px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover__background {
     min-height: 200px;
