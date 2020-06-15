@@ -20,6 +20,13 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .page__places {
+    margin: 64px auto;
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .page__places {
     margin: 64px auto;
