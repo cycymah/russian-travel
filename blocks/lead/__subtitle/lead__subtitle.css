@@ -22,6 +22,22 @@ color: #FFFFFF;
   }
 }
 
+@media screen and (max-width: 720px) {
+  .lead__subtitle {
+    max-width: 570px;
+    font-size: 1.7rem;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .lead__subtitle {
+    padding: 0 16px;
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__subtitle {
     max-width: 320px;

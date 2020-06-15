@@ -16,6 +16,23 @@ color: #FFFFFF;
   }
 }
 
+@media screen and (max-width: 720px) {
+  .lead__title {
+    padding: 0 24px;
+    font-size: 4rem;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .lead__title {
+    width: 380px;
+    padding: 0 34px;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .lead__title {
     width: 288px;
