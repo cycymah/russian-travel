@@ -17,6 +17,14 @@
   }
 }
 
+@media screen and (max-width: 430px) {
+  .place__title {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__title {
     text-align: center;

@@ -16,7 +16,7 @@
     padding: 0 24px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
   .page__footer {
     max-width: 186px;
     margin: 0;

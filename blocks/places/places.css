@@ -2,24 +2,4 @@
 
 .places {
   display: flex;
-  width: 100%;
-  margin: 80px auto;
-}
-
-@media screen and (max-width: 768px) {
-  .places {
-    margin: 72px auto;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .places {
-    margin: 64px auto;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .places {
-    margin: 64px auto;
-  }
 }

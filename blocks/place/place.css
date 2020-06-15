@@ -14,6 +14,7 @@
     "image paragraph"
   ;
   grid-template-columns: fit-content(460px) fit-content(484px);
+  grid-template-rows: auto auto;
   column-gap: 40px;
   row-gap: 48px;
   margin-bottom: 80px;
@@ -26,6 +27,7 @@
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: fit-content(440px) fit-content(456px);
+    grid-template-rows: auto auto;
     column-gap: 32px;
   }
 }
@@ -33,12 +35,13 @@
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: fit-content(340px) fit-content(352px);
+    grid-template-rows: auto auto;
     column-gap: 28px;
     row-gap: 48px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
   .place {
     grid-template: 
     "title" 

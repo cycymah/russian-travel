@@ -1,12 +1,13 @@
 .page__intro {
 max-width: 984px;
-margin: 92px auto 92px;
+margin: 92px auto;
 }
 
 @media screen and (max-width: 1024px) {
   .page__intro{
-    max-width: 928px;
-    padding: 0 24px;
+    max-width: 1024px;
+    margin: 92px 0;
+    padding-left: 48px;
   }
 }
 

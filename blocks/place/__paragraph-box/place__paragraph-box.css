@@ -2,6 +2,13 @@
   grid-area: paragraph;
 }
 
+@media screen and (max-width: 430px) {
+  .place__paragraph-box {
+    padding: 0 16px;
+    
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__paragraph-box {
     padding: 0 16px;

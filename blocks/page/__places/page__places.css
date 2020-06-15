@@ -7,8 +7,8 @@
 @media screen and (max-width: 1024px) {
   .page__places {
     max-width: 1024px;
+    margin: 88px 0;
     padding: 0 48px;
-    margin: 88px auto;
   }
 }
 
@@ -16,11 +16,11 @@
   .page__places {
     max-width: 720px;
     padding: 0 24px;
-    margin: 88px auto;
+    margin: 88px 0;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 430px) {
   .page__places {
     margin: 64px auto;
     padding: 0;
