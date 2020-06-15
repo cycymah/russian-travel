@@ -24,12 +24,17 @@ color: #FFFFFF;
   }
 }
 
+@media screen and (max-width: 550px) {
+  .lead__title {
+    width: 480px;
+    font-size: 3rem;
+  }
+}
+
 @media screen and (max-width: 430px) {
   .lead__title {
     width: 380px;
-    padding: 0 24px;
     font-size: 3rem;
-    line-height: 1;
   }
 }
 
@@ -38,6 +43,5 @@ color: #FFFFFF;
     width: 288px;
     padding: 0 14px;
     font-size: 2.5rem;
-    line-height: 1.1;
   }
 }
