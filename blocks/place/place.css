@@ -7,14 +7,12 @@
 @import url('./__paragraph/place__paragraph.css');
 
 .place {
-  width: 100%;
   display: grid;
   grid-template: 
     "title website"
     "image paragraph"
   ;
-  grid-template-columns: fit-content(460px) fit-content(484px);
-  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
   column-gap: 40px;
   row-gap: 48px;
   margin-bottom: 80px;
@@ -26,16 +24,14 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: fit-content(440px) fit-content(456px);
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: fit-content(340px) fit-content(352px);
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
     column-gap: 28px;
     row-gap: 48px;
   }
@@ -50,7 +46,8 @@
   ;
     width: 100vw;
     justify-content: center;
-    grid-template-columns: auto-fill;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto-fill;
     row-gap: 32px;
     column-gap: 0px;
     margin-bottom: 48px;
