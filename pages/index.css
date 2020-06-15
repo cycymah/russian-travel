@@ -1,4 +1,9 @@
 @import url('../vendors/normalize.css');
+
+/* Тут подключены шртфты */
+@import url('../blocks/fonts/fonts.css'); 
+
+/* Дальше идут блоки */
 @import url('../blocks/link-animation/link-animation.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/header/header.css');
@@ -13,4 +18,5 @@
 
 
 /* Привет, человек проверяющий эту работу! Добра тебе и спасибо! */
+/* Надеюсь мой код не принисет тебе кучу страдания */
 

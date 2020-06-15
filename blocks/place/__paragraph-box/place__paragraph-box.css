@@ -8,10 +8,3 @@
     
   }
 }
-
-@media screen and (max-width: 320px) {
-  .place__paragraph-box {
-    padding: 0 16px;
-    
-  }
-}

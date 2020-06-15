@@ -34,7 +34,6 @@ color: #FFFFFF;
   .lead__subtitle {
     padding: 0 16px;
     font-size: 1rem;
-    line-height: 1.2;
   }
 }
 
@@ -42,8 +41,5 @@ color: #FFFFFF;
   .lead__subtitle {
     max-width: 320px;
     margin: 16px auto 40px;
-    padding: 0 16px;
-    font-size: 1rem;
-    line-height: 1.2;
   }
 }

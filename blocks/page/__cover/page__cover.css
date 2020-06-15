@@ -21,8 +21,3 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .page__cover {
-    margin: 64px auto;
-  }
-}

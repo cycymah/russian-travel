@@ -27,7 +27,7 @@ color: #FFFFFF;
 @media screen and (max-width: 430px) {
   .lead__title {
     width: 380px;
-    padding: 0 34px;
+    padding: 0 24px;
     font-size: 3rem;
     line-height: 1;
   }
