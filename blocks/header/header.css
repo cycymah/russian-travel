@@ -1,9 +1,13 @@
 @import url('./__lang-link/header__lang-link.css');
+
+/* Я в курсе, что такое подключение модификатора не по БЭМ. Но не могу понять, как побороть специфичность 
+не подключая все блоки, элементы и модификаторы единым списком в пордке приоритета в pages.css. Тот способ, 
+котоырй был у меня до этого, виделся мне, как вполне приемлимый в данной работе. 
+Но согласен, что в случае запросов дизайнера - нерабочий.  */
 @import url('./__lang-link/_activ/header__lang-link_active.css');
 @import url('./__logo/header__logo.css');
 @import url('./__links/header__links.css');
 @import url('./__links-item/header__links-item.css');
-
 
 .header {
   display: flex;
