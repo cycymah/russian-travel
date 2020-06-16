@@ -11,7 +11,7 @@ color: #FFFFFF;
 
 @media screen and (max-width: 768px) {
   .lead__title {
-    width: 720px;
+    max-width: 720px;
     padding: 0 24px;
   }
 }
@@ -26,21 +26,21 @@ color: #FFFFFF;
 
 @media screen and (max-width: 550px) {
   .lead__title {
-    width: 480px;
+    max-width: 480px;
     font-size: 3rem;
   }
 }
 
 @media screen and (max-width: 430px) {
   .lead__title {
-    width: 380px;
+    max-width: 380px;
     font-size: 3rem;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__title {
-    width: 288px;
+    max-width: 288px;
     padding: 0 14px;
     font-size: 2.5rem;
   }

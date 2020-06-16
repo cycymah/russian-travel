@@ -1,5 +1,6 @@
+@import url('./_hover/place__link_hover.css');
+
 .place__link {
-  width: 100%;
   font-style: normal;
   font-weight: normal;
   font-size: 1.1rem;

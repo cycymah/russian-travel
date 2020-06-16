@@ -37,14 +37,14 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 600px) {
   .place {
     grid-template: 
     "title" 
     "image" 
     "paragraph"
   ;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     grid-template-columns: 1fr;
     grid-template-rows: auto-fill;

@@ -9,7 +9,7 @@ margin-top: 8px;
 color: #FFFFFF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
   .lead__caption {
     padding-left: 24px;
   }

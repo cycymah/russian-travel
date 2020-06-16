@@ -1,8 +1,8 @@
-.link-animation {
+.footer__link_hover {
   transition: opacity 0.5s ease-in-out;
 }
 
-.link-animation:hover {
+.footer__link_hover:hover {
   opacity: .2;
   transition: opacity 0.5s ease-in-out;
 }

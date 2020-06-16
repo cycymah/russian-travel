@@ -19,8 +19,7 @@
     margin: 88px 0;
   }
 }
-
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 600px) {
   .page__places {
     margin: 64px auto;
     padding: 0;
