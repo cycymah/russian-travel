@@ -26,6 +26,7 @@
 @media screen and (max-width: 320px) {
   .page__header {
     padding: 0 16px;
+    min-height: 42px;
     margin: 16px auto 48px;
   }
 }
