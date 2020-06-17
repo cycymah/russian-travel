@@ -1,0 +1,8 @@
+.header__lang-link_hover {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.header__lang-link_hover:hover {
+  opacity: .2;
+  transition: opacity 0.5s ease-in-out;
+}
