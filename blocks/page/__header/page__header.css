@@ -1,8 +1,7 @@
 .page__header {
-  max-width: 1280px;
+  max-width: 1184px;
   min-height: 52px;
   margin: 28px auto 56px;
-  padding: 0 48px;
 }
 
 @media screen and (max-width: 1024px) {
