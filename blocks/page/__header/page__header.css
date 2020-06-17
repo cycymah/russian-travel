@@ -6,11 +6,13 @@
 
 @media screen and (max-width: 1200px) {
   .page__header {
-    padding: 0 10px;
+    padding: 0 20px;
   }
 }
 @media screen and (max-width: 1024px) {
   .page__header {
+    max-width: 1024px;
+    padding: 0 48px;
     margin-bottom: 48px;
   }
 }
